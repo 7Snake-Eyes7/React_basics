@@ -1,0 +1,30 @@
+pakage.json - contains all the dependencies, scripts & testing resource required for the project
+pakage-lock.json - to ensure proper installation of dependencies
+node_modules - where all the dependencies ll be installed suring creating react app
+public - a beginner should only be concerned with index.html which ll provide the view
+src - index.js - specify root/app component & DOM element which ll be controlled by react
+                everything inside root(in index.html) ll be controlled by react
+
+components - all the components ll be stored in a single component, so 5 components in total
+2 types - stateless functional component(javascript functions) & 
+          stateful class component (class extending component class)
+    components describe a part of ui
+    they are reusable & nested inside other components
+
+functional components - properties(props) -->java script fns -->HTML (jsx)
+
+class components - it have some internal state which ll be private to that component
+
+jsx  - jsx tags--internally converted into-->React.createElement....hence the need of React import
+
+if i want dynamic content, pass the info between the tags
+
+https://www.tutorialspoint.com/reactjs/reactjs_jsx.htm - for more info on jsx
+
+refer to Greet.js to know how to use props in functions
+refer Welcome.js to know how to use props in classes
+
+i can specify any no. of properties, react ll bundle all the props together
+props are immutable
+
+
