@@ -27,4 +27,8 @@ refer Welcome.js to know how to use props in classes
 i can specify any no. of properties, react ll bundle all the props together
 props are immutable
 
+state  - used to populate with dynamic properties
+
+state is an object that is privately maintained inside a component.
+
 
