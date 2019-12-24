@@ -35,7 +35,38 @@ Babel - babel ll convert my jsx element into React.createElement()
 
 react DOM is virtual representation of real DOM - its faster than real DOM
 
-Instead of rendering single element in DOM, we render an app component which ll have tree of components
+Instead of rendering single element in DOM, we render an app component which ll have tree 
+of components.
+
+Dont modify the state directltt, use set state for modification.cuz, state wont re render 
+the component, whereas setState ll.
+
+state is asynchronous
+
+Destructuring of props can be done using parameters or fn body
+& in classes Destructuring is done in render method eg - const {name, heroName}=this.props
+
+Dont call the function with () as your event handler, cuz it ll auto log in the event, 
+just name the function as your event handler.
+
+Go through this link as it ll help one to understand the scope of this keyword in java script-
+https://www.freecodecamp.org/news/the-magic-of-the-this-keyword-in-javascript-ce3ce571013e/
+In JavaScript we don’t make copies when assigning variables. We create references.
+context is also an instance of an object, Just not necessarily the one belonging to the scope
+we’re in. It is more like a link to the outside world. And the outside world is — roughly — 
+the place from which the function was called.
+Inorder to solve this, i need to bind this with the particular object...3 ways to do it
+-1. In the event handler, use the following syntax {this.clickHandler.bind(this)}
+-2. Just use the arrow functions
+-3. bind the this keyword with that in the constructor //this.clickHandler = 
+    this.clickHandler.bind(this) -- in the event handler i can call using {this.clickHandler}
+
+Conditional rendering - Although there are several ways to achieve this, ternary operator 
+is the best approach as the syntax ll be simple (others ways - if else,...etc)
+
+visit mdn web docs for more info on java script
+
+
 
 
 

@@ -6,11 +6,17 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import HelloRcE from "./components/HelloRcE";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
+import ParentComponent from "./components/ParentComponent";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <ParentComponent />
+        {/* <Counter />
+        <FunctionClick /> */}
         {/* <Greet name="bruce" heroName="batsy">
           <p>this is children props</p>
         </Greet>
@@ -23,7 +29,7 @@ class App extends Component {
         <Welcome name="diana" heroName="ww"><button>blitz</button></Welcome>
         <Hello/>
         <HelloRcE/> */}
-        <Message></Message>
+        {/* <Message></Message> */}
       </div>
     );
   }
