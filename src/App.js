@@ -9,12 +9,16 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ParentComponent from "./components/ParentComponent";
+import Login from "./components/login";
+import NameList from "./components/NameList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentComponent />
+        <NameList />
+        {/* <Login /> */}
+        {/* <ParentComponent /> */}
         {/* <Counter />
         <FunctionClick /> */}
         {/* <Greet name="bruce" heroName="batsy">
