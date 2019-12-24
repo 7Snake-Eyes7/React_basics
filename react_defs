@@ -1,6 +1,6 @@
 pakage.json - contains all the dependencies, scripts & testing resource required for the project
 pakage-lock.json - to ensure proper installation of dependencies
-node_modules - where all the dependencies ll be installed suring creating react app
+node_modules - where all the dependencies ll be installed during creating react app
 public - a beginner should only be concerned with index.html which ll provide the view
 src - index.js - specify root/app component & DOM element which ll be controlled by react
                 everything inside root(in index.html) ll be controlled by react
@@ -13,7 +13,7 @@ components - all the components ll be stored in a single component, so 5 compone
 
 functional components - properties(props) -->java script fns -->HTML (jsx)
 
-class components - it have some internal state which ll be private to that component
+class components - it ll have some internal state which ll be private to that component
 
 jsx  - jsx tags--internally converted into-->React.createElement....hence the need of React import
 
@@ -30,5 +30,12 @@ props are immutable
 state  - used to populate with dynamic properties
 
 state is an object that is privately maintained inside a component.
+
+Babel - babel ll convert my jsx element into React.createElement()
+
+react DOM is virtual representation of real DOM - its faster than real DOM
+
+Instead of rendering single element in DOM, we render an app component which ll have tree of components
+
 
 
